@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: #eee;
+}
+
+.item {
+  display: flex;
+}
+
+.eventLog {
+  width: 300px;
+  height: 400px;
+  background-color: #eee;
+}
+
+/* ScrollComponent.css */
+.scroll-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.scroll-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button.active {
+  background-color: #a0a0a0;
+}
+
+.event-log {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-log-item {
+  margin-top: 5px;
+}
+
+.log-timestamp {
+  margin-right: 10px;
+  color: #555;
+}
+
+.log-type {
+  font-weight: bold;
+}
+
+/* ScrollComponent.css */
+.event-log-container {
+  width: 400px;
+  height: 260px;
+  max-height: 260px; /* 최대 높이 설정 */
+  overflow-y: auto; /* Y축 방향으로 스크롤 가능하도록 설정 */
+}
+
+/* 이하 동일 */
